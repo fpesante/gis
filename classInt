@@ -1,0 +1,5 @@
+library(classInt)
+Stroke_Mortality <- read.csv("C:/Users/francisco.pesante/Documents/2014/IEC/GIS_1.1/Tasas_Municipios_1.1/jenks_todos_los_datos/Stroke_Fem_Male.csv")
+
+Stroke <- (Stroke_Mortality[,1])
+classIntervals(Stroke, 6, style = "jenks")
