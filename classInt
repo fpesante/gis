@@ -3,3 +3,5 @@ Stroke_Mortality <- read.csv("C:/Users/francisco.pesante/Documents/2014/IEC/GIS_
 
 Stroke <- (Stroke_Mortality[,1])
 classIntervals(Stroke, 6, style = "jenks")
+
+#ref: http://cran.r-project.org/web/packages/classInt/index.html
