@@ -1,0 +1,15 @@
+# dataset a formato .dbf
+# text import
+## character set: Western Europe
+## language: default - english (usa)
+## separator options: comma
+## other options: quoted field as text
+## other options: detect special numbers 
+## fields > standard, text or date
+## file > save as > dBase (.dbf) > save > keep current format > western europe (Windows-1252/WinLatin 1)
+# unid datos censales con geodato
+## qgis: layer > add layer > add vector layer > *.shp
+## qgis: layer > add layer > add vector layer > *.dbf
+## *.shp > Properties > Layer Properties > Joins > + (Add vector join) > Join layer: .dbf > Join field: geo_id > Target field: geo_id > x_Cache join layer in virtual memory > x_Create attribute index on join field > x_Choose which fields are joined > x_geo_id > ok
+## *.shp > Properties > Layer Properties > Style > Graduated > Column: * > Mode: * > Apply
+## *.shp > Save as > Save vector layer as > Browse > File name: **.shp > Save > x_Add saved file to map > Ok > desactivar layer originales.
