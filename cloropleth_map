@@ -1,6 +1,6 @@
 # dataset a formato .dbf
 # text import
-## character set: Western Europe
+## character set: Western Europe (Windows-1252/WinLatin 1)
 ## language: default - english (usa)
 ## separator options: comma
 ## other options: quoted field as text
